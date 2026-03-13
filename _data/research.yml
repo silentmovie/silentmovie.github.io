@@ -5,7 +5,7 @@
 # article: https://medium.com/@uwdata/64ce20287e9d
 # recording: https://vimeo.com/308980888
 # poster: https://vega.github.io/falcon/flights
-  code: https://simda-muri.github.io/mmot/
+  code: https://github.com/kaheonkim/Sobolev-Gradient-Ascent-for-Optimal-Transport
   image-slider: /assets/images/research/barycenter-comp.png
   description: "How should the **mean** of a collection of probability distribution be computed in practice? What can we build on the **mean**?"
   highlight: 1
