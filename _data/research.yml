@@ -19,6 +19,7 @@
   # poster: https://vega.github.io/falcon/flights
   code: https://github.com/silentmovie/AMCMC
   poster: /assets/poster/Poster_AMCMC.pdf
+  recording: https://www.youtube.com/watch?v=96vkJ-djDIY
   image-slider: /assets/images/research/roadmap.jpg
   description: "How can we design an **accelerated MCMC** sampling algorithm on discrete state spaces such as graphs?"
   highlight: 2
