@@ -5,7 +5,7 @@ date: 2022-10-17
 permalink: /2022/10/17/Robertson-Channel.html
 image-slider: /assets/images/posts/Bohan_icefloe.gif
 <!-- excerpt: Multi-marginal optimal transport for Sea Ice Dynamics Prediction -->
-categories: Research
+categories: [Research]
 excerpt_separator: <!--end_excerpt-->
 ---
 
@@ -28,5 +28,4 @@ Using the SAR data (collected every 6 days) from [Alaska Satellite Facility](htt
 
 [1]: https://arxiv.org/abs/2208.03025
 [2]: https://simda-muri.github.io/mmot/
-
 

@@ -3,7 +3,7 @@ layout: post
 author: Bohan, Shirley and Wenxuan
 permalink: /2025/11/05/WOP.html
 image-slider: /assets/images/posts/WOP.png
-categories: [mentoring post]
+categories: [Mentor]
 excerpt_separator: <!--end_excerpt-->
 ---
 
@@ -27,5 +27,4 @@ They implemented the method entirely in Python \[[2]], handling both 1D and 2D d
 [1]: https://back-and-forth.netlify.app
 [2]: https://inarihimeko.github.io/BFOT/intro.html
 [3]: https://arxiv.org/pdf/2303.02183
-
 

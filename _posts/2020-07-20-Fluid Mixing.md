@@ -4,7 +4,7 @@ author: Bohan
 date: 2020-07-20
 permalink: /2020/07/20/RT.html
 image-slider: /assets/images/posts/movie6.png
-categories: Research
+categories: [Research]
 excerpt_separator: <!--end_excerpt-->
 code: https://github.com/silentmovie/RTmodel
 ---
@@ -39,5 +39,4 @@ Please refer to \[[4]\] for the recent refinement and development.
 [2]: https://github.com/silentmovie/RTmodel
 [3]: https://simda-muri.github.io/mmot/
 [4]: https://arxiv.org/abs/2201.04538
-
 

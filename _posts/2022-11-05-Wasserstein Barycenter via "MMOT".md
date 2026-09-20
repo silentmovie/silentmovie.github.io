@@ -5,7 +5,7 @@ date: 2022-11-05
 permalink: /2022/11/05/Shape-Interpolation.html
 image-slider: /assets/images/posts/barycenter-comp.png
 <!-- excerpt: Multi-marginal optimal transport for the Wasserstein barycenter -->
-categories: Research
+categories: [Research]
 excerpt_separator: <!--end_excerpt-->
 paper: https://doi.org/10.1007/s10915-024-02572-8
 code: https://simda-muri.github.io/mmot/
@@ -61,7 +61,6 @@ and the dual variables $(f_i)$, as one of outputs, can induce the Wasserstein ba
 
 [1]: http://doi.org/10.1137/100805741
 [2]: https://arxiv.org/abs/2208.03025
-
 
 
 

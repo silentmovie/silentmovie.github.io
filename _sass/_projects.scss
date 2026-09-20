@@ -72,6 +72,102 @@
     }
   }
 
+  .post-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+
+    .post-filter {
+      background: transparent;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      color: $text-color;
+      cursor: pointer;
+      font: inherit;
+      padding: 0.35rem 0.75rem;
+
+      &:hover,
+      &:focus-visible,
+      &.is-active {
+        border-color: currentColor;
+        outline: none;
+      }
+
+      &.is-active {
+        font-weight: 600;
+      }
+
+      &.category-research {
+        color: $grey-color;
+      }
+
+      &.category-learning {
+        color: #f58025;
+      }
+
+      &.category-mentor {
+        color: #00703c;
+      }
+    }
+  }
+
+  .post-card {
+    opacity: 1;
+    max-height: 1200px;
+    overflow: hidden;
+    transition: opacity 0.2s ease, max-height 0.25s ease, margin 0.25s ease, padding 0.25s ease;
+
+    &.is-hidden {
+      display: none;
+    }
+
+    .post-card-title {
+      font-size: 1.3em;
+      line-height: 1.2;
+      margin: 0;
+
+      a {
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .post-card-subtitle {
+      font-size: 0.85em;
+      font-weight: 600;
+      margin: 0.25rem 0 0.7rem;
+    }
+
+    .post-card-excerpt {
+      font-size: 0.85em;
+      line-height: 1.35;
+      margin: 0.7em 0;
+
+      h5 {
+        display: none;
+      }
+    }
+
+    &.category-research,
+    .category-research {
+      color: $grey-color;
+    }
+
+    &.category-learning,
+    .category-learning {
+      color: #f58025;
+    }
+
+    &.category-mentor,
+    .category-mentor {
+      color: #00703c;
+    }
+  }
+
   @include media-query($on-laptop) {
     .grid {
       grid-template-columns: 1fr 1fr;

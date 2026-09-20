@@ -1,0 +1,28 @@
+{% assign category = post.categories | first | downcase | slugify %}
+{% assign category_name = post.categories | first | capitalize %}
+
+<article class="project post-card" data-category="{{ category }}">
+  <h2 class="title post-card-title category-{{ category }}">
+    <a href="{{ post.url | relative_url }}" class="category-{{ category }}">{{ post.title }}</a>
+  </h2>
+  <p class="post-card-subtitle category-{{ category }}">{{ category_name }}</p>
+
+  {% if post.image-slider %}
+    <a href="{{ post.url | relative_url }}" class="preview-image" style="background-image: url('{{ post["image-slider"] | relative_url }}')" aria-label="Read {{ post.title | escape }}"></a>
+  {% endif %}
+
+  {% if post.excerpt %}
+    <div class="post-card-excerpt">{{ post.excerpt }}</div>
+  {% endif %}
+
+  <div class="spacer"></div>
+  <div class="links">
+    <a href="{{ post.url | relative_url }}"><i class="fas fa-book-open" aria-hidden="true"></i> Read post</a>
+    {% if post.paper %}
+      <a href="{{ post.paper }}"><i class="far fa-file-pdf" aria-hidden="true"></i> Paper</a>
+    {% endif %}
+    {% if post.code %}
+      <a href="{{ post.code }}"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
+    {% endif %}
+  </div>
+</article>

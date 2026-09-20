@@ -3,7 +3,7 @@ layout: post
 author: Bohan and Tyler 
 permalink: /2022/05/30/Understand-interpolation.html
 image-slider: /assets/images/posts/Wass-dough.gif
-categories: [mentoring post]
+categories: [Mentor]
 excerpt_separator: <!--end_excerpt-->
 ---
 
@@ -54,5 +54,4 @@ Our current implementation owes much to Prof. Peyré’s excellent open-source e
 [1]: https://www.numerical-tours.com/python/
 [2]: https://back-and-forth.netlify.app
 [3]: https://simda-muri.github.io/mmot/
-
 
