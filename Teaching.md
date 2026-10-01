@@ -8,9 +8,9 @@ permalink: /teaching/
 
 {:.hidden}
 
-## Current Teaching
+<!-- ## Current Teaching
 
-Parental leave
+Parental leave -->
 
 ## Teaching Practice
 

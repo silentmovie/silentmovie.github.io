@@ -1,12 +1,12 @@
 - location: University of California, Santa Barbara
   courses:
     - title: (3A) Calculus with Applications [<a href="https://ucsb.instructure.com/courses/17922/assignments/syllabus" target="_blank">Canvas Syllabus</a>]
-    - title: (6B) Vector Calculus with Applications  [<a href="https://ucsb.instructure.com/courses/26734/assignments/syllabus" target="_blank">Canvas Syllabus</a>]
+    - title: (6A)(6B) Vector Calculus with Applications  [<a href="https://ucsb.instructure.com/courses/32764/assignments/syllabus" target="_blank">Canvas Syllabus for A</a>] [<a href="https://ucsb.instructure.com/courses/26734/assignments/syllabus" target="_blank">Canvas Syllabus for B</a>]
     - title: (34B) Calculus for Social and Life Sciences [<a href="https://ucsb.instructure.com/courses/22429/assignments/syllabus" target="_blank">Canvas Syllabus</a>]
     - title: (104B) Introduction into Numerical Analysis [<a href="https://ucsb.instructure.com/courses/17923/assignments/syllabus" target="_blank">Canvas Syllabus</a>]
     - title: (108AB) Linear Algebra [<a href="https://ucsb.instructure.com/courses/22430/assignments/syllabus" target="_blank">Canvas Syllabus for A</a>] [<a href="https://ucsb.instructure.com/courses/23970/assignments/syllabus" target="_blank">Canvas Syllabus for B</a>]
     - title: (117) Methods of Analysis [<a href="https://ucsb.instructure.com/courses/23971/assignments/syllabus" target="_blank">Canvas Syllabus</a>]
-
+    - title: (132B) Operations Research [<a href="https://ucsb.instructure.com/courses/32765/assignments/syllabus" target="_blank">Canvas Syllabus</a>]
 - location: Dartmouth College
   courses:
     - title: (8) Calculus of Functions of one and several variables
