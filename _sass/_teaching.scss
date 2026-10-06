@@ -1,0 +1,50 @@
+@use "_vars" as *;
+
+.teaching {
+  .teaching-feedback {
+    display: grid;
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+    align-items: center;
+    gap: $spacing-unit;
+    margin: $spacing-unit 0;
+  }
+
+  .teaching-feedback-copy {
+    h3 {
+      margin-top: 0;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  .teaching-feedback-figure {
+    margin: 0;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      color: $grey-color;
+      font-size: $small-font-size;
+      line-height: 1.5;
+      text-align: left;
+    }
+  }
+
+  @include media-query($on-palm) {
+    .teaching-feedback {
+      grid-template-columns: minmax(0, 1fr);
+      gap: calc($spacing-unit / 2);
+    }
+
+    .teaching-feedback-figure {
+      width: 100%;
+      max-width: 515px;
+      margin: 0 auto;
+    }
+  }
+}

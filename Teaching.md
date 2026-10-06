@@ -14,6 +14,17 @@ Parental leave -->
 
 ## Teaching Practice
 
+<section class="teaching-feedback" aria-labelledby="student-feedback">
+  <div class="teaching-feedback-copy">
+    <h3 id="student-feedback">Student Feedback</h3>
+    <p>I welcome questions during lectures, breaks, and office hours. Students can return to an explanation and work through the step that has left them stuck. Their feedback helps me decide where an explanation needs more attention.</p>
+  </div>
+  <figure class="teaching-feedback-figure">
+    <img src="{{ '/assets/teaching/student-feedback-word-cloud.png' | relative_url }}" width="515" height="268" alt="Word cloud of positive student feedback, with prominent phrases including office hour, outside class, very helpful, very patient, and explained concepts.">
+    <figcaption>Frequent words in positive comments from course evaluations.</figcaption>
+  </figure>
+</section>
+
 ### Course Reflections
 
 *“It is rare in a math course for students to speak,”* one of my students once remarked. I believe that encouraging reflections and discussions during lectures provides valuable opportunities to turn mistakes and misunderstandings into active learning experiences, helping students build confidence in their reasoning. Here are some sample presentations.
