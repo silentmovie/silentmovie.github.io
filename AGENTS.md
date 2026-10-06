@@ -19,6 +19,8 @@ This file is the project-wide guidance for `silentmovie.github.io`.
 
 ## Completion and version control
 
+- Keep unfinished blog posts in `_drafts/` and previous draft versions in `_draft_revisions/`. Both folders are local-only, ignored by Git, and must not be staged, committed, or pushed. Do not force-add their contents.
+- Only after the user marks a blog draft complete, prepare the approved version as a dated post in `_posts/`. Keep local draft copies unless the user asks to remove them, and still require an explicit request before committing or pushing the completed post.
 - Once the user confirms that an updated feature is satisfactory, remind them to git the change (for example, commit and push it as appropriate).
 - Do not commit, push, or otherwise alter git history automatically unless the user explicitly asks for that action.
 
