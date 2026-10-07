@@ -21,7 +21,7 @@ Parental leave -->
   </div>
   <figure class="teaching-feedback-figure">
     <img src="{{ '/assets/teaching/student-feedback-word-cloud.png' | relative_url }}" width="515" height="268" alt="Word cloud of positive student feedback, with prominent phrases including office hour, outside class, very helpful, very patient, and explained concepts.">
-    <figcaption>Frequent words in positive comments from course evaluations.</figcaption>
+    <figcaption>Frequent words in comments from course evaluations.</figcaption>
   </figure>
 </section>
 
