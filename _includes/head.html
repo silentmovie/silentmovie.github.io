@@ -13,4 +13,9 @@
 
   <link href="https://use.fontawesome.com/releases/v6.7.2/css/all.css" rel="stylesheet">
   <link href="{{ '/styles.css' | relative_url }}" rel="stylesheet">
+
+  {% assign umami_website_id = site.umami.website_id | default: '' | strip %}
+  {% if jekyll.environment == 'production' and umami_website_id != '' %}
+  <script defer src="{{ site.umami.script_url | escape }}" data-website-id="{{ umami_website_id | escape }}" data-domains="silentmovie.github.io"></script>
+  {% endif %}
 </head>

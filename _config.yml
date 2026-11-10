@@ -9,6 +9,11 @@ production_url: "https://silentmovie.github.io"
 github_username: silentmovie
 permalink: /blog/:year/:month/:title.html
 
+# Private Umami analytics. Set website_id from Umami's Tracking code to enable.
+umami:
+  website_id: "5086b214-9960-462f-84cf-a94a5a4c7bf5"
+  script_url: "https://cloud.umami.is/script.js"
+
 # twitter:
 #   username: domoritz
 
