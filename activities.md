@@ -21,6 +21,7 @@ class: activities
 
 # Services and Outreach
 
+Participant in *Promoting Postdoc Progress (P3)* hosted by CITRAL. UCSB. (Spring 2026)\\
 Organizer of *AMS 2026 Spring Eastern Sectional Meeting*. Boston, MA. (March 2026)\\
 Participant in *ESCALA's Culturally Responsive Practices for STEM Faculty Teaching Latinx Students*. Online. (August, 2025)\\
 Participant in *The Mathematics of Opportunity: Beyond Limits* hosted by Just Equations. Online. (Apr, 2025)\
